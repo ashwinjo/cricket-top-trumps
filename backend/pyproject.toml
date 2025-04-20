@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ek-tappa-out-backend"
+version = "0.1.0"
+description = "The Ultimate IPL Top Trumps Challenge API"
+authors = ["Ashwin Joshua"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.2"
+sqlalchemy = "^2.0.40"
+pydantic = "^2.11.3"
+python-dotenv = "^1.1.0"
+python-espncricinfo = "^0.5.8"
+pytest = "^8.3.5"
+pytest-cov = "^6.1.1"
+httpx = "^0.28.1"
+alembic = "^1.15.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
